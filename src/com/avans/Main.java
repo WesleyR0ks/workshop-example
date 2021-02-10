@@ -7,6 +7,7 @@ public class Main {
         System.out.println(sum(12, 12));
         System.out.println(mul(12, 12));
         System.out.println(mul(12.0, 12.0));
+        mergeConflict("This creates a merge conflict!!");
     }
 
     public static int sum( int a, int b ) {
@@ -19,5 +20,9 @@ public class Main {
 
     public static double mul (double a, double b) {
         return a*b;
+    }
+
+    public static void mergeConflict(String text) {
+        System.out.println(text);
     }
 }
