@@ -25,4 +25,8 @@ public class Main {
     public static void mergeConflict(String text) {
         System.out.println(text);
     }
+
+    public static void eigenwijs () {
+        System.out.println("Eigenwijs!");
+    }
 }
